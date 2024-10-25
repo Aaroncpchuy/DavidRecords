@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Supermercado - Acerca de...</title>
+   <link rel="stylesheet" href="/CSS/styles.css">
+   <link rel="stylesheet" href="/CSS/acercade.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <header>
+      <a href='/'><img src="/Media/IMG/logo.png" alt="logo" id="logoI"></a>
+      <button class="hamburger" id="hamburger-btn">&#9776;</button> <!-- Botón del menú hamburguesa -->
+      <nav id="navbar">
+         <button id="theme-toggle" class="theme-toggle">Modo Oscuro</button>
+        <a href='/'>Inicio</a>
+        <a href='/HTML/contactos.html' id='contactos-link'>Contactos</a>
+        <a href='/HTML/ubicacion.html' id='ubicacion-link'>Ubicación</a>
+        <a href='/HTML/historial.html' id='historial-link' style='display:none;'>Ver Compras</a>
+        <a href='/HTML/login.html' id='login-link'>Iniciar Sesión</a>
+        <a href='/HTML/register.html' id='register-link'>Registrar</a>
+        <span id="welcome-message" style="display:none;"></span>
+        <a href="#" id="logout-link" style="display:none;">Cerrar Sesión</a>
+        <button id="cart-btn">Carrito (0)</button>
+      </nav>
+    </header>
+   <main>
+      <div class="about-container">
+         <h1>Sobre Nosotros</h1>
+         <div class="about-content">
+            <div class="about-text">
+                <h2>DavidsRecords</h2>
+                <p>En DavidsRecords, nos apasiona la música y creemos que cada nota cuenta una historia. Desde nuestra apertura hace más de 15 años, nos hemos convertido en un punto de encuentro para los amantes de la música de todos los géneros. Nuestro objetivo es ofrecer una experiencia única a nuestros clientes, donde puedan descubrir, explorar y disfrutar de la música en todas sus formas.</p>
+                <p>Nos especializamos en la venta de discos de vinilo, CD, y formatos digitales, abarcando una amplia gama de géneros que incluyen rock, pop, jazz, música clásica, reggae y mucho más. Contamos con una cuidada selección de artistas tanto consagrados como emergentes, lo que nos permite ofrecer algo especial para cada tipo de oyente. Además, organizamos eventos en vivo y sesiones de escucha, donde los clientes pueden disfrutar de la música en un ambiente acogedor y compartir su amor por la música con otros.</p>
+                <p>En DavidsRecords, también valoramos la importancia de la comunidad. Trabajamos estrechamente con músicos locales y sellos discográficos independientes para promover el talento local y ofrecer a nuestros clientes una variedad de productos que no encontrarán en ningún otro lugar. Creemos en el poder de la música para unir a las personas y crear experiencias memorables.</p>
+                <p>Nuestra misión es ser el destino favorito para todos los melómanos, ofreciendo no solo productos de alta calidad, sino también un servicio al cliente excepcional. Nuestro equipo está compuesto por apasionados de la música que están siempre dispuestos a ayudar y compartir recomendaciones personalizadas, asegurando que cada visita a DavidsRecords sea inolvidable.</p>
+                <p>Te invitamos a visitar nuestra tienda, donde podrás sumergirte en un mundo sonoro lleno de descubrimientos. Ya sea que estés buscando ese disco que te trae recuerdos, o quieras explorar nuevas melodías, en DavidsRecords encontrarás lo que necesitas para enriquecer tu colección musical.</p>
+            </div>
+           <div class="about-image">
+             <img src="/Media/tienda-nosotros.jpg" alt="Imagen del supermercado">
+           </div>
+         </div>
+       </div>
+   </main>
+
+
+   <footer>
+      <span>©SuperAserrí 2024 - Todos los derechos reservados</span>
+      
+      <div class="footerdiv">
+         <div class="footerdiv1">
+               <img src="/Media/logo.png" style="border-radius: 5px; width: 200px; height: 150px;" alt="logo">
+         </div>
+         <div class="footerdiv2">
+            <h3 class="headline footer">Servicio al Cliente</h3>
+            <ul class="footer-links">
+               <li><a href="#">Métodos de Pago</a></li>
+               <li><a href="#">Entregas y Devoluciones</a></li>
+               <li><a href="#">Políticas de Cookies</a></li>
+               <li><a href="#">Políticas de Privacidad</a></li>
+               <li><a href="#">Términos y Condiciones</a></li>
+               <li><a href="#">Reclamaciones</a></li>
+            </ul>
+         </div>
+         <div class="footerdiv2">
+            <h3 class="headline footer">Contáctenos</h3>
+            <ul>
+               <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:2230-5200" class="ng-binding">2230-5222</a></li>
+               <li><i class="fa fa-envelope" aria-hidden="true"></i>
+               <a class="ng-binding" href="mailto:superaserri@superaserri.com">superaserri@superaserri.com</a>
+               </li>
+               <li><a href='/contactos'><i class="fa fa-comment" aria-hidden="true"></i> Contáctenos</a></li>
+               <li><a href="preguntas.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Preguntas Frecuentes</a></li>
+               <li><a href='/ubicacion'><i class="fas fa-store" aria-hidden="true"></i> Superemercados</a></li>
+               <li><a href='/acercade'><i class="fas fa-building" aria-hidden="true"></i> ¿Quiénes Somos?</a></li>
+            </ul>
+         </div>
+      </div>
+   </footer>
+   <script src="/JS/script.js"></script>
+</body>
+</html>
